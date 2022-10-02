@@ -1,11 +1,14 @@
 import React from "react";
+import {Routes, Route} from 'react-router-dom';
+import Home from './pages/Home'
+import BookList from './pages/BookList'
 import "./style.css";
 
 export default function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-    </div>
+   <Routes>
+     <Route path='/' element={<Home />}/>
+     <Route path='/books' element={<BookList />}/>
+     </Routes>
   );
 }
