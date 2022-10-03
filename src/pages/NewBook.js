@@ -3,8 +3,7 @@ import React from 'react';
 export default function NewBook() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <h1>New Book!</h1>
     </div>
   );
 }

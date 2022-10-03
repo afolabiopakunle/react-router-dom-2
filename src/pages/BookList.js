@@ -6,9 +6,9 @@ export default function BookList() {
     <div>
       <h1>BookList</h1>
       <ul>
-        <li><Link to='/book/unknown/23'>Book 1</Link></li>
-        <li><Link to='/book/Afolabi/4'>Book 2</Link></li>
-        <li><Link to='/book/Jumi/1'>Book 3</Link></li>
+        <li><Link to='/books/unknown/23'>Book 1</Link></li>
+        <li><Link to='/books/Afolabi/4'>Book 2</Link></li>
+        <li><Link to='/books/Jumi/1'>Book 3</Link></li>
       </ul>
     </div>
   );
