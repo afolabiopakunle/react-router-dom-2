@@ -5,6 +5,7 @@ import BookList from './pages/BookList';
 import NotFound from './pages/NotFound';
 import Book from './pages/Book'
 import NewBook from './pages/NewBook'
+import BooksLayout from './pages/BooksLayout';
 import "./style.css";
 
 export default function App() {
@@ -19,7 +20,7 @@ export default function App() {
       </nav>
    <Routes>
      <Route path='/' element={<Home />}/>
-     <Route path='/books'>
+     <Route path='/books' element={<BooksLayout />}>
        <Route index element={<BookList />} />
         <Route path=':name/:id' element={<Book />} />
         <Route path='/books/new' element={<NewBook />}/>
