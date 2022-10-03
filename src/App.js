@@ -23,8 +23,8 @@ export default function App() {
      <Route path='/books' element={<BooksLayout />}>
        <Route index element={<BookList />} />
         <Route path=':name/:id' element={<Book />} />
-        <Route path='/books/new' element={<NewBook />}/>
      </Route> 
+     <Route path='/books/new' element={<NewBook />}/>
      <Route path='*' element={<NotFound />} />
      </Routes>
      </>
